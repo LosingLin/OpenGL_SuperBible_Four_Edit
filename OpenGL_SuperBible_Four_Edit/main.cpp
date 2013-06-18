@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);
 	glutCreateWindow("Simple");
 
-	glutDisplayFunc(Simple_2_5_2::renderScene);
+	glutDisplayFunc(Simple_2_5_2::renderScene); 
 
 	Simple_2_5_2::setupRC();
 
