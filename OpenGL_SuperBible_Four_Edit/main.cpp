@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 	glutCreateWindow("Simple");
 
 	glutDisplayFunc(Simple_2_5_2::renderScene); 
-
+	glutReshapeFunc(Simple_2_5_2::changeSize);
 	Simple_2_5_2::setupRC();
 
 	glutMainLoop();

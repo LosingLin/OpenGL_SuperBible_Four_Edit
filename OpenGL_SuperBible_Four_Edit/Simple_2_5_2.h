@@ -11,6 +11,7 @@ public:
 
 	static void renderScene(void);
 	static void setupRC(void);
+	static void changeSize(GLsizei w, GLsizei h);
 };
 
 #endif
